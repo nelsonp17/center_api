@@ -1,1 +1,5 @@
-"# center_api" 
+# Centro de API 
+
+## Comandos
+pip freeze > requirements.txt
+pip install -r requirements.txt

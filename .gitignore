@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.eggs
+dist/
+build/
+develop-eggs/
+eggs/
+
+# Python IDE files
+.idea/
+.vscode/
+
+# Local configuration
+local.py
+instance/config.py
+#.env
+
+# Logs
+logs/
+*.log
+
+# Test stuff
+tests/
+*.pyc
+*.pytest_cache
+
+# Django-specific
+*.sqlite3
+
+# IPython notebook files
+*.ipynb
+
+# Misc
+*.swp
+[Tt]mp
+*.bak
+*.syncignore
+local.settings.py
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
