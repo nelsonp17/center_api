@@ -3,3 +3,6 @@
 ## Comandos
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+[.venv]
+.venv\Scripts\activate

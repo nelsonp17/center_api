@@ -20,7 +20,7 @@ eggs/
 # Local configuration
 local.py
 instance/config.py
-#.env
+.env
 
 # Logs
 logs/
