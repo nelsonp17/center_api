@@ -16,6 +16,7 @@ eggs/
 # Python IDE files
 .idea/
 .vscode/
+.spyproject
 
 # Local configuration
 local.py
@@ -30,6 +31,7 @@ logs/
 tests/
 *.pyc
 *.pytest_cache
+.pytest_cache/
 
 # Django-specific
 *.sqlite3
