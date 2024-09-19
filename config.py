@@ -24,5 +24,9 @@ class DevelopmentConfig(Config):
 
 
 config = {
-    'development': DevelopmentConfig
+    'development': DevelopmentConfig,
+    "SOCK_SERVER_OPTIONS": {
+        'ping_interval': 30, # Envía paquetes de ping a los clientes en el intervalo solicitado en segundos. Establezca esta opción None(predeterminada)
+        'max_message_size': None # El tamaño máximo permitido para un mensaje, en bytes, o Nonesin límite.
+    }
 }

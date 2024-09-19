@@ -14,3 +14,11 @@ def index():
 @main.route('/hello')
 def hello():
     return '<p>Hello, World!</p>'
+
+@main.route('/websocket')
+def websocket():
+    return render_template('pages/test_websocket.html')
+
+@main.route('/websocket_clock')
+def websocket_clock():
+    return render_template('pages/test_websocket_clock.html')
